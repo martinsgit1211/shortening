@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color:  hsl(260, 8%, 14%);
+    justify-content: space-between;
+    padding-left: 5rem;
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+.feats{
+    color:  hsl(257, 7%, 63%);
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+}
+.login{
+    color:  hsl(257, 7%, 63%);
+    display: flex;
+    list-style: none;
+    padding: 2rem;
+    padding-right: 4rem;
+}
+.log{
+    padding-right: 1rem;
+}
+.log:hover{
+    color:  hsl(257, 27%, 26%);
+    cursor: pointer;
+}
+.sign{
+    border: none;
+    border-radius: 3rem;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+
+    margin-bottom: 1rem;
+}
+.sign:hover{
+    background-color: hsl(180, 66%, 49%);
+    cursor: pointer;
+}
+.link{
+    font-size: 300%;
+    width: 150%;
+    line-height: 3.5rem;
+}
+.feature,.price{
+    padding-right: 1rem;
+}
+.feature:hover{
+    color:  hsl(257, 27%, 26%);
+    cursor: pointer;
+}
+.resource:hover{
+    color:  hsl(257, 27%, 26%);
+    cursor: pointer;
+}
+.price:hover{
+    color:  hsl(257, 27%, 26%);
+    cursor: pointer;
+}
+.parent{
+    font-family: "Poppins", sans-serif;
+    /* padding-left: 5rem; */
+    text-align: start;
+    /* padding-bottom: 10rem; */
+}
+.build{
+    color: hsl(0, 0%, 75%);
+    width: 25rem;
+    line-height: 1.5rem;
+    padding-top: 0px;
+}
+.button{
+    border: none;
+    background-color:  hsl(180, 66%, 49%);
+    color: white;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 2rem;
+}
+.image{
+    width: 70%;
+    position: relative; 
+    overflow: hidden;
+    padding-left: 18rem;
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5rem;
+}
+.more{
+    width: 20rem;
+}
+.untop{
+    width: 80%;
+    height: 50px;
+    background-color: hsl(257, 27%, 26%);
+    background-image: url(images/bg-shorten-desktop.svg);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    position: absolute;
+    color: white;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    top: 31.5rem;
+    border-radius: 8px;
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 3rem; 
+}
+.behind{
+  margin-top: 10rem;
+  background-color: whitesmoke;
+  /* height: 50%; */
+  padding-top: 10rem;
+  align-items: center;
+  text-align: center;
+}
+.ribbon{
+    color: hsl(257, 7%, 63%);
+    padding: 1rem 15rem 1rem 1rem;
+    border-radius: 5px;
+    border: none;
+}
+.botton{
+    color: white;
+    background-color:  hsl(180, 66%, 49%);
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 5px;
+    border: none;;
+}
+.track{
+    color: hsl(257, 7%, 63%);
+    padding-left: 26.5rem;
+    padding-right: 26.5rem;
+}
+.recog{
+    width: 23%;
+    height: 17rem;
+    text-align: start;
+    padding: 3rem 1rem 2rem 1rem;
+    background-color: white;
+    border-radius: 8px;
+}
+.insight{
+    width: 23%;
+    height: 17rem;
+    text-align: start;
+    padding: 3rem 1rem 2rem 1rem;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 3rem;
+}
+.aware{
+    width: 23%;
+    height: 17rem;
+    text-align: start;
+    padding: 3rem 1rem 2rem 1rem;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 6rem;
+}
+.boost{
+    color: hsl(257, 7%, 63%);
+}
+.detail{
+    color: hsl(260, 8%, 14%);
+}
+.rebrand{
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 3rem;
+    padding: 1.5rem;
+}
+.tracker{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 7rem;
+}
+.fusion{
+    background-color: hsl(180, 66%, 49%);
+    width: 2rem;
+    height: 8px;
+    border: none;
+    margin-top: 17rem;
+}
+.remain{
+    background-color: hsl(257, 27%, 26%);
+    background-image: url(images/bg-shorten-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 2rem ;
+}
+.footer{
+    background-color: hsl(260, 8%, 14%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem;
+}
+.other{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    padding-left: 5rem;
+}
+.ftures{
+    color: white;
+    font-size: small;
+    margin-bottom: 1rem;
+}
+.anal{
+    color: hsl(0, 0%, 75%);
+    font-size: xx-small;
+    list-style: none;
+    margin-top: 0 auto;
+    top: 5px;
+}
+.analytics{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
